@@ -5,3 +5,8 @@
     Verde: #49a09d
     Lilás: #5f2c82
 */
+
+:root {
+    --cor01: #49a09d;
+    --cor02: #5f2c82;
+}
