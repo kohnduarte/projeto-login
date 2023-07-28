@@ -6,6 +6,8 @@
     Lilás: #5f2c82
 */
 
+/* Abordagem Mobile First, desenvolvimento com foco em dispositivos móveis */
+
 :root {
     --cor01: #49a09d;
     --cor02: #5f2c82;
@@ -28,8 +30,8 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 250px;
-    height: 500px;
+    width: 80vw;
+    height: 90vh;
     border-radius: 20px;
     background-color: #fff;
 }
