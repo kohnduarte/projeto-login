@@ -21,8 +21,10 @@
     /* dimensões incluem conteúdo, padding e borda */
 }
 
-body {
+body, html {
     background-color: var(--cor02);
+    width: 100vw;
+    height: 100vh;
 }
 
 section#login {
