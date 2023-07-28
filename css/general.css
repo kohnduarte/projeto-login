@@ -48,7 +48,7 @@ div#formulario {
     padding: 10px;
 }
 
-                        /* tela deitada */
+                    /* tela deitada (versão para celular) */
 
 @media screen and (orientation: landscape) { 
     section#login {

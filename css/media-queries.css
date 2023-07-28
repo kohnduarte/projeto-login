@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/* DEVICE BREAKPOINTS
+
+Mobile devices – 320px — 480px (estilo principal)
+iPads, Tablets – 481px — 768px
+Small screens, laptops – 769px — 1024px
+Desktops, large screens – 1025px — 1200px
+Extra large screens, TV – 1201px, and more
+
+*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+    section#login {
+        width: 70vw;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+    section#login {
+        width: 90vw;
+        height: 70vh;
+    }
+}
