@@ -10,15 +10,39 @@ Extra large screens, TV – 1201px, and more
 
 */
 
+                         /* TABLET EM PÉ */
+
 @media screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
     section#login {
         width: 70vw;
     }
 }
 
+                        /* TABLET DEITADO */
+
 @media screen and (min-width: 1024px) and (orientation: landscape) {
     section#login {
         width: 80vw;
         height: 70vh;
+    }
+
+    div#img {
+        float: left;
+        width: 30%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    div#formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+              /* Small screens, laptops – 769px — 1024px */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    section#login {
+        width: 80vw;
     }
 }
