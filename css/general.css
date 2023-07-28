@@ -50,7 +50,7 @@ div#formulario {
 
                     /* tela deitada (versão para celular) */
 
-@media screen and (orientation: landscape) { 
+@media screen and (orientation: landscape) and (min-width: 700px) and (max-width: 850px) { 
     section#login {
         width: 500px;
         height: 300px;
