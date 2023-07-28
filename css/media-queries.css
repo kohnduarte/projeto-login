@@ -10,20 +10,21 @@ Extra large screens, TV – 1201px, and more
 
 */
 
-                         /* TABLET EM PÉ */
+                  /* iPads, Tablets – 481px — 768px */
 
-@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
     section#login {
         width: 70vw;
+        height: 85vh;
     }
 }
 
-                        /* TABLET DEITADO */
+                        /* 769px em diante */
 
-@media screen and (min-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 769px) {
     section#login {
-        width: 80vw;
-        height: 70vh;
+        width: 50vw;
+        height: 50vh;
     }
 
     div#img {
@@ -39,10 +40,3 @@ Extra large screens, TV – 1201px, and more
     }
 }
 
-              /* Small screens, laptops – 769px — 1024px */
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    section#login {
-        width: 80vw;
-    }
-}

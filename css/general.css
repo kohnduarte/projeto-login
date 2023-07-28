@@ -48,24 +48,4 @@ div#formulario {
     padding: 10px;
 }
 
-                    /* tela deitada (versão para celular) */
 
-@media screen and (orientation: landscape) and (min-width: 600px) and (max-width: 850px) { 
-    section#login {
-        width: 500px;
-        height: 300px;
-    }
-
-    div#img {
-        float: left;
-        width: 30%;
-        height: 100%;
-        border-radius: 20px 0px 0px 20px;
-    }
-
-    div#formulario {
-        float: right;
-        width: 70%;
-    }
-
-}
