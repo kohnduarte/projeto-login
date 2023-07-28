@@ -48,3 +48,12 @@ div#formulario {
     padding: 10px;
 }
 
+                        /* tela deitada */
+
+@media screen and (max-width: 480px) and (orientation: landscape) { 
+    section#login {
+        width: 500px;
+        height: 300px;
+    }
+
+}
