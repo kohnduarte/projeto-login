@@ -50,4 +50,20 @@ div#formulario {
     padding: 10px;
 }
 
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+}
+
+div.formu {
+    margin: 10px 0;
+}
+
+input#sub {
+    padding: 5px 10px;
+}
+
 
