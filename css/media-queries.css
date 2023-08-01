@@ -64,8 +64,8 @@ Extra large screens, TV – 1201px, and more
 
 @media screen and (min-width: 1025px) {
     section#login {
-        width: 25vw;
-        height: 45vh;
+        width: 40vw;
+        height: 300px;
     }
 
     div#img {
@@ -79,12 +79,5 @@ Extra large screens, TV – 1201px, and more
         margin-right: 30%;
     }
 
-    h1 {
-        font-size: 1.2em;
-    }
-
-    p {
-        font-size: .9em;
-    }
 }
 
