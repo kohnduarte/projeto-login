@@ -95,6 +95,10 @@ form > a {
     border-color: buttonborder;
 }
 
+form > a:hover {
+    background-color: #401e57;
+}
+
 label {
     display: none;
 }
