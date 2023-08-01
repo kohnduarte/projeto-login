@@ -70,6 +70,10 @@ input[type="submit"] {
     width: 100%;
     cursor: pointer;
     margin-bottom: 10px;
+    border-width: 2px;
+    border-style: outset;
+    border-image: initial;
+    border-color: buttonborder;
 }
 
 input[type="submit"]:hover {
@@ -87,7 +91,7 @@ form > a {
     font-size: 1.1em;
     border-width: 2px;
     border-style: outset;
-    border-color: buttonborder;
     border-image: initial;
+    border-color: buttonborder;
 }
 
