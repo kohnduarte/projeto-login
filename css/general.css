@@ -95,3 +95,7 @@ form > a {
     border-color: buttonborder;
 }
 
+label {
+    display: none;
+}
+
