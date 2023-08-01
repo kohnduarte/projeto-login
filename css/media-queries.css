@@ -10,18 +10,39 @@ Extra large screens, TV – 1201px, and more
 
 */
 
+
+
                   /* iPads, Tablets – 481px — 768px */
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        background-image: linear-gradient(to top, var(--cor01), var(--cor02));
+    }
+    
     section#login {
-        width: 70vw;
-        height: 85vh;
+        width: 50vw;
+        height: 50vh;
+    }
+
+    div#img {
+        float: left;
+        width: 25%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    div#formulario {
+        margin-left: 25%;
     }
 }
 
                         /* 769px em diante */
 
 @media screen and (min-width: 769px) {
+    body {
+        background-image: linear-gradient(to top, var(--cor01), var(--cor02));
+    }
+
     section#login {
         width: 50vw;
         height: 50vh;
