@@ -32,7 +32,7 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 300px;
-    height: 535px;
+    height: 545px;
     border-radius: 20px;
     background-color: #fff;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.45);
@@ -60,8 +60,12 @@ p {
 
 div.formu {
     margin: 10px 0;
-    background-color: #404ee9;
+    background-color: #9aa0e7;
     height: 39px;
+    border-width: 2px;
+    border-style: outset;
+    border-image: initial;
+    border-color: buttonborder;
 }
 
 input {
