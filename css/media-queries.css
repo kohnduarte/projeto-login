@@ -13,7 +13,7 @@ Extra large screens, TV – 1201px, and more
 
 
                   /* iPads, Tablets – 481px — 768px */
-
+/*
 @media screen and (min-width: 600px) and (max-width: 768px) {
     body {
         background-image: linear-gradient(to top, var(--cor01), var(--cor02));
@@ -34,7 +34,7 @@ Extra large screens, TV – 1201px, and more
     div#formulario {
         margin-left: 25%;
     }
-}
+}*/
 
                   /* Small screens, laptops – 769px — 1024px */
 
