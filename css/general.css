@@ -62,6 +62,10 @@ div.formu {
     margin: 10px 0;
 }
 
+input {
+    height: 30px;
+}
+
 input[type="submit"] {
     background-color: var(--cor01);
     color: #fff;
@@ -94,6 +98,7 @@ form > a {
     border-style: outset;
     border-image: initial;
     border-color: buttonborder;
+    padding-bottom: 0px;
 }
 
 form > a:hover {
