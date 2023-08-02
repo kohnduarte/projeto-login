@@ -81,8 +81,8 @@ input[type="submit"]:hover {
 }
 
 form > a {
-    background-color: var(--cor02);
-    color: #fff;
+    background-color: #fff;
+    color: #346f6d;
     display: block;
     width: 100%;
     text-decoration: none;
@@ -96,7 +96,7 @@ form > a {
 }
 
 form > a:hover {
-    background-color: #401e57;
+    background-color: var(--cor01);
 }
 
 label {
