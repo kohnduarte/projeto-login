@@ -64,6 +64,7 @@ div.formu {
 
 input {
     height: 30px;
+    -webkit-appearance: none;
 }
 
 input[type="submit"] {
