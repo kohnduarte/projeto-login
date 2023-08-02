@@ -79,7 +79,7 @@ input[type="submit"] {
     border-style: outset;
     border-image: initial;
     border-color: buttonborder;
-    border-radius: 0px 0px 0px 0px;
+    -webkit-appearance: none;
 }
 
 input[type="submit"]:hover {
