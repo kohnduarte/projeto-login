@@ -66,6 +66,7 @@ div.formu {
     border-style: outset;
     border-image: initial;
     border-color: buttonborder;
+    border-radius: 5px;
 }
 
 input {
@@ -86,7 +87,7 @@ input[type="submit"] {
     border-image: initial;
     border-color: buttonborder;
     -webkit-appearance: none;
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 5px;
 }
 
 input[type="submit"]:hover {
@@ -111,6 +112,7 @@ form > a {
     border-image: initial;
     border-color: buttonborder;
     padding-top: 4px;
+    border-radius: 5px;
 }
 
 form > a:hover {
