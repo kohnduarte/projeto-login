@@ -103,11 +103,15 @@ form > a {
     border-style: outset;
     border-image: initial;
     border-color: buttonborder;
-    
+    padding-top: 4px;
 }
 
 form > a:hover {
     background-color: var(--cor01);
+}
+
+form > a > span#ayuda {
+    font-size: 1em;
 }
 
 label {
