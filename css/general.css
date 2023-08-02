@@ -85,6 +85,10 @@ input[type="submit"]:hover {
     background-color: #346f6d;
 }
 
+input[placeholder] {
+    margin-left: 2px;
+}
+
 form > a {
     background-color: #fff;
     color: #346f6d;
