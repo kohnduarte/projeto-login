@@ -60,6 +60,8 @@ p {
 
 div.formu {
     margin: 10px 0;
+    background-color: #404ee9;
+    height: 39px;
 }
 
 input {
@@ -80,6 +82,7 @@ input[type="submit"] {
     border-image: initial;
     border-color: buttonborder;
     -webkit-appearance: none;
+    border-radius: 0px 0px 0px 0px;
 }
 
 input[type="submit"]:hover {
