@@ -45,7 +45,7 @@ Extra large screens, TV – 1201px, and more
 
     section#login {
         width: 50vw;
-        height: 50vh;
+        height: 345px;
     }
 
     div#img {
@@ -58,14 +58,22 @@ Extra large screens, TV – 1201px, and more
     div#formulario {
         margin-left: 30%;
     }
+
+    input[placeholder] {
+        width: calc(100% - 47px);
+    }
 }
 
                         /* 1025px em diante */
 
 @media screen and (min-width: 1025px) {
+    body {
+        background-image: linear-gradient(to top, var(--cor01), var(--cor02));
+    }
+
     section#login {
         width: 40vw;
-        height: 300px;
+        height: 345px;
     }
 
     div#img {
@@ -77,6 +85,10 @@ Extra large screens, TV – 1201px, and more
 
     div#formulario {
         margin-right: 30%;
+    }
+
+    input[placeholder] {
+        width: calc(100% - 47px);
     }
 
 }
