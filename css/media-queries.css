@@ -58,10 +58,6 @@ Extra large screens, TV – 1201px, and more
     div#formulario {
         margin-left: 30%;
     }
-
-    input[placeholder] {
-        width: calc(100% - 47px);
-    }
 }
 
                         /* 1025px em diante */
@@ -86,10 +82,5 @@ Extra large screens, TV – 1201px, and more
     div#formulario {
         margin-right: 30%;
     }
-
-    input[placeholder] {
-        width: calc(100% - 47px);
-    }
-
 }
 
