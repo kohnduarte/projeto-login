@@ -104,7 +104,6 @@ input[placeholder] {
     margin-left: 2px;
     width: calc(100% - 45px);
     height: 100%;
-    /*border: none;*/
     border-radius: 10px;
     transform: translateY(-10px);
 }
