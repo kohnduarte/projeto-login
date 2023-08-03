@@ -53,7 +53,7 @@ div#formulario {
 
 h1 {
     text-align: center;
-    color: red;
+    
 }
 
 p {
@@ -108,7 +108,7 @@ input[placeholder] {
     height: 100%;
     width: calc(100% - 45px);
     border-radius: 10px;
-    transform: translateY(-10px);
+    transform: translateY(-11px);
 }
 
 form > a {
