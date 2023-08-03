@@ -103,7 +103,7 @@ input[type="submit"]:hover {
 input[placeholder] {
     margin-left: 2px;
     width: calc(100% - 45px);
-    height: 99%;
+    height: 89%;
     border-radius: 10px;
     transform: translateY(-10px);
 }
