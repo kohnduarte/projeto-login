@@ -76,6 +76,7 @@ input {
 span.xyz {
     color: #fff;
     font-size: 2.1em;
+    margin-left: 5px;
 }
 
 input[type="submit"] {
@@ -102,7 +103,7 @@ input[type="submit"]:hover {
 input[placeholder] {
     margin-left: 2px;
     transform: translateY(-10px);
-    width: 85%;
+    width: 83%;
 }
 
 form > a {
