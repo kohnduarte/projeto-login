@@ -17,12 +17,12 @@
             <form action="login.php" method="post" autocomplete="on">
                 <div>
                     <span class="icon">mail</span>
-                    <input type="email" name="e-mail" id="email" placeholder="a" title="E-mail">
+                    <input type="email" name="e-mail" id="email" placeholder="seu endereço de e-mail" title="E-mail" required>
                     <label for="email">E-mail</label>
                 </div>
                 <div>
                     <span class="icon">key</span>
-                    <input type="password" name="password" id="pass" placeholder="a" title="Senha">
+                    <input type="password" name="password" id="pass" placeholder="entre 8 e 20 caracteres" title="Senha" minlength="8" maxlength="20" required>
                     <label for="pass">Senha</label>
                 </div>
                 <input type="submit" value="Entrar">
