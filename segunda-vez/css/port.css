@@ -67,6 +67,7 @@ section#formulario > p {
 
 form > div {
     margin-bottom: .5em;
+    height: 30.4px;
 }
 
 input + label{
@@ -75,4 +76,6 @@ input + label{
 
 input[placeholder] {
     width: calc(100% - 35px);
+    height: 100%;
+    transform: translateY(-9px);
 }
