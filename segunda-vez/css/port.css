@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+                        /* ::::: MODO RETRATO ::::: */
+
+* {
+    margin: 0;
+}
+
+main {
+    position: absolute;
+    background-color: bisque;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 0px #0000007a;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
