@@ -104,3 +104,9 @@ div#link {
 form > a {
     
 }
+
+input:invalid {
+    /* as pseudoclasses ':valid' e ':invalid' permitem estilizar um controle interativo de formulário com base no estado atual dele (válido ou inválido) */
+    /*background-color: #f00;*/
+    /* não estou conseguindo o efeito desejado, o atributo 'required' está fazendo com que o controle já carregue inválido */
+}
