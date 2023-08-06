@@ -88,6 +88,9 @@ input[type="submit"] {
     margin: 20px auto 0;
     display: block;
     cursor: pointer;
+    -webkit-appearance: none;
+    /* remover o estilo especial que o Safari aplica (só que isso acaba removendo em outros navegadores também */
+    border: 1px solid;
 }
 
 section#formulario:focus-within {
