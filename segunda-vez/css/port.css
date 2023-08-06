@@ -80,6 +80,7 @@ input[placeholder] {
     width: calc(100% - 35px);
     height: 100%;
     transform: translateY(-9px);
+    border: 2px solid;
 }
 
 input[type="submit"] {
@@ -91,6 +92,11 @@ input[type="submit"] {
     -webkit-appearance: none;
     /* remover o estilo especial que o Safari aplica (só que isso acaba removendo em outros navegadores também */
     border: 1px solid;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(215, 248, 238);
 }
 
 section#formulario:focus-within {
@@ -104,8 +110,13 @@ div#link {
     margin-top: 15px;
 }
 
-form > a {
-    
+form > div > a {
+    text-decoration: none;
+    color: #8d8989;
+}
+
+form > div > a:hover {
+    text-decoration: underline;
 }
 
 input:invalid {
@@ -113,3 +124,5 @@ input:invalid {
     /*background-color: #f00;*/
     /* não estou conseguindo o efeito desejado, o atributo 'required' está fazendo com que o controle já carregue inválido */
 }
+
+ 
