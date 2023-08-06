@@ -79,7 +79,6 @@ input + label{
 
 input[placeholder] {
     width: calc(100% - 35px);
-    max-width: 350px;
     height: 100%;
     transform: translateY(-9px);
     border: 2px solid;
