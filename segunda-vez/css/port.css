@@ -54,6 +54,8 @@ section#img {
 
 section#formulario {
     padding: 0 .6em .6em;
+    height: 50%;
+    width: 100%;
 }
 
 section#formulario > h1 {
@@ -88,4 +90,5 @@ input[type="submit"] {
 section#formulario:focus-within {
     /* foco dentro, a pseudoclasse ':focus-within' seleciona e aplica estilos a um elemento quando ele ou qualquer um de seus descentes receber foco */
     border: 2px solid greenyellow;
+    box-shadow: 0px 0px 8px 0px inset greenyellow;
 }
