@@ -37,15 +37,6 @@ span.passforg {
     box-sizing: border-box;
 }
 
-html, body {
-    width: 100vw;
-    height: 100vh;
-}
-
-::-webkit-scrollbar {
-    display: none;
-}
-
 main {
     position: absolute;
     background-color: bisque;
