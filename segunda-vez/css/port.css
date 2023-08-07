@@ -42,6 +42,10 @@ html, body {
     height: 100vh;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 main {
     position: absolute;
     background-color: bisque;
