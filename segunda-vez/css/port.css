@@ -127,6 +127,7 @@ form > div > a {
 
 form > div > a:hover {
     text-decoration: underline;
+    color: #f00;
 }
 
 input:invalid {
