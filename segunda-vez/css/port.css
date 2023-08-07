@@ -69,6 +69,7 @@ section#formulario {
     padding: 0 .6em .6em;
     height: 60%;
     width: 100%;
+    border-radius: 0px 0px 10px 10px;
 }
 
 section#formulario > h1 {
