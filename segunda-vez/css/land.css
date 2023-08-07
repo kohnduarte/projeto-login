@@ -29,12 +29,27 @@
     margin: 0;
 }
 
+body {
+    background: url('../img/fundo.jpg') fixed center/cover;
+}
+
 main {
     position: absolute;
-    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.582);
     height: 50vh;
     width: 50vw;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px 0px #0000006a;
 }
+
+section#img {
+    float: right;
+    background: url('../img/mando.jpg') center/cover;
+    width: 35%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+
