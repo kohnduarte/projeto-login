@@ -52,7 +52,7 @@ main {
 
 section#img {
     background: aqua url('../img/mando.jpg') center/cover;
-    height: 50%;
+    height: 40%;
     border-radius: 10px 10px 0px 0px;
 }
 
