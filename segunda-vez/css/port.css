@@ -73,7 +73,7 @@ section#formulario > p {
     text-align: justify;
 }
 
-form > div {
+form > div.campo {
     margin-bottom: .5em;
     height: 30.4px;
 }
