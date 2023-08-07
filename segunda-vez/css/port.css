@@ -87,7 +87,7 @@ input[placeholder] {
     height: 100%;
     border: 2px solid;
     border-radius: 5px;
-    transform: translateY(-9px);
+    transform: translateY(-10px);
 }
 
 input[type="submit"] {
