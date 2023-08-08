@@ -78,6 +78,9 @@ input[placeholder] {
 
 input[type="submit"] {
     -webkit-appearance: none;
+    padding: .4em 1.7em .5em;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 
 form > div#link > a {
