@@ -76,6 +76,15 @@ input[placeholder] {
     height: 30px;
 }
 
+form > div#link > a {
+    text-decoration: none;
+    color: rgb(79, 75, 71);
+}
+
+form > div#link > a:hover {
+    text-decoration: underline;
+}
+
 label {
     display: none;
 }
