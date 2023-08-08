@@ -15,15 +15,17 @@
             <h1>Login</h1>
             <p>Seja bem-vindo(a) novamente! Faça login para acessar a sua conta e poder fazer as configurações no seu ambiente.</p>
             <form action="login.php" method="post" autocomplete="on">
-                <div class="campo">
-                    <span class="icon">mail</span>
-                    <input type="email" name="e-mail" id="email" placeholder=" seu endereço de e-mail" title="E-mail" required>
-                    <label for="email">E-mail</label>
-                </div>
-                <div class="campo">
-                    <span class="icon">key</span>
-                    <input type="password" name="password" id="pass" placeholder=" senha de 8 a 20 caracteres" title="Senha" minlength="8" maxlength="20" required>
-                    <label for="pass">Senha</label>
+                <div id="flt">
+                    <div class="campo">
+                        <span class="icon">mail</span>
+                        <input type="email" name="e-mail" id="email" placeholder=" seu endereço de e-mail" title="E-mail" required>
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="campo">
+                        <span class="icon">key</span>
+                        <input type="password" name="password" id="pass" placeholder=" senha de 8 a 20 caracteres" title="Senha" minlength="8" maxlength="20" required>
+                        <label for="pass">Senha</label>
+                    </div>
                 </div>
                 
                 <input type="submit" value="Entrar">
