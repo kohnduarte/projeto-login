@@ -13,7 +13,7 @@
     font-family: 'Material Symbols Outlined';
     font-weight: normal;
     font-style: normal;
-    font-size: 24px;
+    font-size: 2em;
     line-height: 1;
     letter-spacing: normal;
     text-transform: none;
@@ -71,7 +71,8 @@ section#formulario > p {
 input[placeholder] {
     border: 2px solid #000;
     border-radius: 5px;
-    transform: translateY(-8px);
+    transform: translateY(-11px);
+    height: 30px;
 }
 
 label {
