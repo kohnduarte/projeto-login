@@ -76,6 +76,10 @@ input[placeholder] {
     height: 30px;
 }
 
+input[type="submit"] {
+    -webkit-appearance: none;
+}
+
 form > div#link > a {
     text-decoration: none;
     color: rgb(79, 75, 71);
@@ -88,6 +92,8 @@ form > div#link > a:hover {
 label {
     display: none;
 }
+
+            /* :::: REGRA FEITA ESPECIALMENTE PRO MEU CELULAR :::: */
 
 @media screen and (max-width: 1000px) {
     main {
