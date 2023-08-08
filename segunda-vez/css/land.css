@@ -47,16 +47,6 @@ main {
     padding-left: .7em;
 }
 
-@media screen and (max-width: 1000px) {
-    main {
-        width: 80vw;
-    }
-
-    section#formulario > h1#heading {
-        margin: .2em 0;
-    }
-}
-
 section#img {
     float: right;
     background: url('../img/mando.jpg') center/cover;
@@ -78,3 +68,12 @@ section#formulario > p {
     margin-bottom: 0.5em;
 }
 
+@media screen and (max-width: 1000px) {
+    main {
+        width: 80vw;
+    }
+
+    section#formulario > h1 {
+        margin: .2em 0;
+    }
+}
