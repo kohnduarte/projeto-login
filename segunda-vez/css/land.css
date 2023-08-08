@@ -69,6 +69,10 @@ section#formulario > p {
     margin-bottom: 0.5em;
 }
 
+div#flt {
+    float: left;
+}
+
 input[placeholder] {
     border: 2px solid #000;
     border-radius: 5px;
@@ -77,6 +81,8 @@ input[placeholder] {
 }
 
 input[type="submit"] {
+    display: block;
+    margin: auto;
     -webkit-appearance: none;
     padding: .4em 1.7em .5em;
     border: 1px solid #000;
