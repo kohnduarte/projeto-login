@@ -113,6 +113,10 @@ label {
         margin: .2em 0;
     }
 
+    input[type="submit"] {
+        transform: translateY(5px);
+    }
+
     span.passforg {
         font-size: 1.5em;
     }
