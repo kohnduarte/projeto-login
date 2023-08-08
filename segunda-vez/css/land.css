@@ -112,4 +112,8 @@ label {
     section#formulario > h1 {
         margin: .2em 0;
     }
+
+    span.passforg {
+        font-size: 1.5em;
+    }
 }
