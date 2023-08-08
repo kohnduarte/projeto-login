@@ -51,6 +51,10 @@ main {
     main {
         width: 80vw;
     }
+
+    section#formulario > h1#heading {
+        margin: .2em 0;
+    }
 }
 
 section#img {
