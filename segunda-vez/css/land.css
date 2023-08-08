@@ -89,12 +89,12 @@ input[type="submit"] {
     border-radius: 5px;
 }
 
-form > div#link > a {
+div#link > a {
     text-decoration: none;
     color: rgb(61, 62, 16);
 }
 
-form > div#link > a:hover {
+div#link > a:hover {
     text-decoration: underline;
 }
 
