@@ -27,6 +27,7 @@
 
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -43,6 +44,7 @@ main {
     transform: translate(-50%, -50%);
     border-radius: 10px;
     box-shadow: 0px 0px 9px 0px #0000006a;
+    padding-left: .7em;
 }
 
 section#img {
@@ -51,5 +53,18 @@ section#img {
     width: 35%;
     height: 100%;
     border-radius: 0px 10px 10px 0px;
+}
+
+section#formulario {
+    
+}
+
+section#formulario > h1 {
+    text-align: center;
+    margin: .5em 0;
+}
+
+section#formulario > p {
+    margin-bottom: 0.5em;
 }
 
