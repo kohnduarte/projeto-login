@@ -85,7 +85,7 @@ input[type="submit"] {
     margin: auto;
     font-size: .9em;
     -webkit-appearance: none;
-    padding: .4em 1.7em .5em;
+    padding: .3em 1.7em;
     border: 1px solid #000;
     border-radius: 5px;
 }
