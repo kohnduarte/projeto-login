@@ -61,6 +61,7 @@ section#formulario {
 }
 
 section#formulario > h1 {
+    letter-spacing: .1em;
     text-align: center;
     margin: .5em 0;
 }
