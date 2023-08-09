@@ -90,6 +90,7 @@ input[type="submit"] {
 }
 
 div#link > a {
+    font-size: .9em;
     text-decoration: none;
     color: rgb(61, 62, 16);
     padding: .3em .5em .5em;
