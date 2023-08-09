@@ -108,7 +108,7 @@ label {
 
             /* :::: REGRA FEITA ESPECIALMENTE PRO MEU CELULAR :::: */
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 650px) and (max-width: 670px) {
     main {
         width: 80vw;
     }
