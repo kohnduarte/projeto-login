@@ -38,8 +38,8 @@ body {
 main {
     position: absolute;
     background-color: rgba(250, 235, 215, 0.582);
-    height: 50vh;
-    width: 50vw;
+    height: 315px;
+    width: 675px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -69,11 +69,16 @@ section#formulario > p {
     margin-bottom: 0.5em;
 }
 
+form {
+    position: relative;
+}
+
 div#flt {
     float: left;
 }
 
 input[placeholder] {
+    background-color: #ffffff62;
     border: 2px solid #000;
     border-radius: 5px;
     transform: translateY(-11px);
@@ -83,6 +88,7 @@ input[placeholder] {
 input[type="submit"] {
     display: block;
     margin: auto;
+    background-color: #ffffff62;
     font-size: .9em;
     -webkit-appearance: none;
     padding: .3em 1.7em;
@@ -90,7 +96,14 @@ input[type="submit"] {
     border-radius: 5px;
 }
 
+div#link {
+    position: absolute;
+    top: 45px;
+    right: 58px;
+}
+
 div#link > a {
+    background-color: #ffffff62;
     font-size: .9em;
     text-decoration: none;
     color: rgb(35, 36, 3);
@@ -109,24 +122,9 @@ label {
 
             /* :::: REGRA FEITA ESPECIALMENTE PRO MEU CELULAR :::: */
 
-@media screen and (min-width: 650px) and (max-width: 670px) {
-    main {
-        width: 80vw;
-    }
-
-    section#formulario > h1 {
-        margin: .2em 0;
-    }
-
-    input[type="submit"] {
-        transform: translateY(5px);
-    }
-
-    div#link {
-        width: 90%;
-        margin: auto;
-        text-align: right;
-        transform: translateY(14px);
+@media screen and (device-width: 667px) {
+    h1#titu {
+        color: pink;
     }
 
 }
