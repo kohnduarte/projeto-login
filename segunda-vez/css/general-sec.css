@@ -36,3 +36,10 @@ section#frml h1 {
 section#frml p {
     text-align: center;
 }
+
+form {
+}
+
+input + label {
+    display: none;
+}
