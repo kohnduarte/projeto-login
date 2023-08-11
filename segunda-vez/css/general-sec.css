@@ -41,6 +41,22 @@ form {
     padding: 1em;
 }
 
+form:focus-within {
+    box-shadow: 0px 0px 10px 0px #0f0;
+}
+
+div.campos {
+    position: relative;
+}
+
+input[placeholder] {
+    position: absolute;
+    height: 2em;
+    width: 241.08px;
+    top: .6em;
+    left: 3.5em;
+}
+
 input + label {
     display: none;
 }
