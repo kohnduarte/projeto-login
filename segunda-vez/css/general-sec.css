@@ -38,8 +38,13 @@ section#frml p {
 }
 
 form {
+    padding: 1em;
 }
 
 input + label {
     display: none;
+}
+
+.material-symbols-outlined {
+    font-size: 3em;
 }
