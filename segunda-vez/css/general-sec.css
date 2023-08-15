@@ -69,6 +69,9 @@ input[type="submit"] {
     display: block;
     margin: 2em auto;
     -webkit-appearance: none;
+    background-color: rgb(88, 84, 125);
+    color: #fff;
+    letter-spacing: .1em;
     border-radius: 5px;
     padding: .5em 1em .4em;
     box-shadow: 1px 1px 0px 0px #000;
@@ -82,3 +85,19 @@ input + label {
 .material-symbols-outlined {
     font-size: 3em;
 }
+
+div#link {
+    text-align: center;
+}
+
+section#frml > div#link > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section#frml > div#link > a:hover {
+    text-decoration: underline;
+}
+
+
+
