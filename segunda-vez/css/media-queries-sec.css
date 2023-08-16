@@ -42,6 +42,10 @@
         margin-right: 5px;
     }
 
+    section#frml h1 {
+        margin: .2em 0 .5em 0;
+    }
+
     section#frml:focus-within {
         box-shadow: none;
     }
@@ -50,5 +54,9 @@
         position: static;
         transform: translate(2px, -16px);
         height: 2.5em;
+    }
+
+    input[type="submit"] {
+        margin: 1em auto;
     }
 }
