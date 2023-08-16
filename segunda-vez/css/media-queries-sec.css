@@ -25,6 +25,11 @@
 }
 
 @media screen and (min-width: 669px) and (max-width: 768px) {
+    body {
+        height: 100vh;
+        background-image: linear-gradient(to top, rgb(202, 252, 202), rgb(158, 158, 253));
+    }
+
     main {
         width: 90vw;
         height: 360px;
