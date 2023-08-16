@@ -20,6 +20,7 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: width 1s steps(3, end);
 }
 
 section#img {
